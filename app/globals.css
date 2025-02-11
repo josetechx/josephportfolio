@@ -14,8 +14,22 @@
   }
 }
 
+@font-face {
+  font-family: "Birth";
+  src: url("/fonts/Birth.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Decaydence";
+  src: url("/fonts/Decaydence.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  
 }

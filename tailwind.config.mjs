@@ -11,6 +11,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        birth: ["Birth", "sans-serif"],
+        decaydence: ["Decaydence", "sans-serif"],
+      },
+      backgroundImage: {
+        hero: "url('/images/banner.jpg')", // Correct placement for background images
+      },
     },
   },
   plugins: [],
