@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="flex justify-between items-center p-4 my-4 relative">
+        <nav className="flex justify-between items-center p-4 my-4 relative max-w-4xl lg:max-w-5xl mx-auto">
             {/* Logo */}
             <div className="navbar-logo">
                 <Link href="/" aria-label="Go to Home" className="text-xl font-bold font-decaydence">
@@ -16,10 +16,12 @@ const Navbar = () => {
             </div>
 
             {/* Desktop Nav */}
-            <ul className="hidden md:flex space-x-6 p-2 font-decaydence text-md">
+            <ul className="hidden md:flex space-x-6 p-2 font-decaydence text-xs">
                 <li><Link href="/" className="hover:text-gray-500">Home</Link></li>
                 <li><Link href="/about" className="hover:text-gray-500">About</Link></li>
                 <li><Link href="/services" className="hover:text-gray-500">Services</Link></li>
+                <li><Link href="/services" className="hover:text-gray-500">Portfolio</Link></li>
+                <li><Link href="/services" className="hover:text-gray-500">Testimonials</Link></li>
                 <li><Link href="/contact" className="hover:text-gray-500">Contact</Link></li>
             </ul>
 
@@ -33,8 +35,8 @@ const Navbar = () => {
             </button>
 
             {/* Mobile Menu */}
-            <div className={`absolute top-16 right-0 w-3/4 bg-white shadow-md p-4 rounded-lg transition-all duration-300 ease-in-out md:hidden ${isOpen ? 'block' : 'hidden'}`}>
-                <ul className="flex flex-col space-y-4 font-decaydence text-lg">
+            <div className={`absolute top-16 right-0 w-3/4 bg-white shadow-md p-4 rounded-lg transition-all duration-300 ease-in-out md:hidden z-20 ${isOpen ? 'block' : 'hidden'}`}>
+                <ul className="flex flex-col space-y-4 font-decaydence text-lg text-purple-800">
                     <li><Link href="/" className="hover:text-gray-500" onClick={() => setIsOpen(false)}>Home</Link></li>
                     <li><Link href="/about" className="hover:text-gray-500" onClick={() => setIsOpen(false)}>About</Link></li>
                     <li><Link href="/services" className="hover:text-gray-500" onClick={() => setIsOpen(false)}>Services</Link></li>
