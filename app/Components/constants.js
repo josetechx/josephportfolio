@@ -1,7 +1,22 @@
 //  Service Constant
 
 import Link from 'next/link';
-import { FaLaptopCode, FaPaintBrush, FaMobileAlt, FaShoppingCart, FaSearch } from 'react-icons/fa';
+import { FaLaptopCode, FaPaintBrush, FaMobileAlt, FaShoppingCart, FaSearch, FaEye, FaGithub } from 'react-icons/fa';
+import react from '../../public/images/SVG/react-white.svg';
+import nextjs from '../../public/images/SVG/nextjs-white.svg';
+import tailwindcss from '../../public/images/SVG/tailwind-white.svg';
+import wordpress from '../../public/images/SVG/wordpress-white.svg';
+import framer from '../../public/images/SVG/framer-white.svg';
+import material from '../../public/images/SVG/material-white.svg';
+import bootstrap from '../../public/images/SVG/bootstrap-white.svg';
+import jquery from '../../public/images/SVG/jquery-logo-white.svg';
+import css from '../../public/images/SVG/css-white.svg';
+import html from '../../public/images/SVG/html5-white.svg';
+import js from '../../public/images/SVG/javascript-white.svg';
+import port1 from '../../public/images/port1.png';
+import port2 from '../../public/images/port2.png';
+import port3 from '../../public/images/port3.png';
+import port4 from '../../public/images/port4.png';
 
 export const services = [
     {
@@ -39,99 +54,106 @@ export const services = [
 export const projects = [
     {
         id: 1,
-        title: 'Project Title',
+        title: 'A GIFTING WEBSITE: Made To Love',
         description: 'Project Description',
-        image: '/images/demo.jpg',
+        image: port1,
         stack: ['React', 'Next.js', 'Tailwind CSS'],
         stackIcons: [
-            '/images/react.svg',
-            '/images/nextjs.svg',
-            '/images/tailwindcss.svg',
+            react,
+            framer,
+            tailwindcss,
         ],
         Links: [
             {
                 id: 1,
                 title: 'Live Demo',
-                url: 'https://www.example.com',
+                icon: <FaEye />,
+                url: 'https://madetolove.netlify.app',
             },
             {
                 id: 2,
                 title: 'Source Code',
-                url: 'https://www.example.com',
+                icon: <FaGithub />,
+                url: 'https://github.com/onaneye/madetolove',
             },
         ],
     },
     {
         id: 2,
-        title: 'Project Title',
+        title: 'E-COMMERCE: Posh & Spice',
         description: 'Project Description',
-        image: '/images/demo.jpg',
-        stack: ['React', 'Next.js', 'Tailwind CSS'],
+        image: port2,
+        stack: ['jQuery','Bootstrap', 'css', 'HTML', 'Javascript', ],
         stackIcons: [
-            '/images/react.svg',
-            '/images/nextjs.svg',
-            '/images/tailwindcss.svg',
+            jquery,
+            bootstrap,
+            css,
+            html,
+            js,
         ],
         Links: [
             {
                 id: 1,
                 title: 'Live Demo',
-                url: 'https://www.example.com',
+                icon: <FaEye />,
+                url: 'https://temporarylink.netlify.app',
             },
             {
                 id: 2,
                 title: 'Source Code',
-                url: 'https://www.example.com',
+                icon: <FaGithub />,
+                url: 'https://github.com/onaneye/posh-and-spice',
             },
         ],
     },
     {
         id: 3,
-        title: 'Project Title',
+        title: 'A LANDING PAGE: Cherut Contracting',
         description: 'Project Description',
-        image: '/images/demo.jpg',
-        stack: ['React', 'Next.js', 'Tailwind CSS'],
+        image: port3,
+        stack: ['Wordpress', 'RoyalElementor', 'SEO'],
         stackIcons: [
-            '/images/react.svg',
-            '/images/nextjs.svg',
-            '/images/tailwindcss.svg',
+            wordpress
         ],
         Links: [
             {
                 id: 1,
                 title: 'Live Demo',
-                url: 'https://www.example.com',
+                icon: <FaEye />,
+                url: 'https://www.cherutcontractingservices.com',
             },
             {
                 id: 2,
                 title: 'Source Code',
+                icon: <FaGithub />,
                 url: 'https://www.example.com',
             },
         ],
     },
     {
         id: 4,
-        title: 'Project Title',
+        title: 'A LANDING PAGE: Your Favorite Writer',
         description: 'Project Description',
-        image: '/images/demo.jpg',
-        stack: ['React', 'Next.js', 'Tailwind CSS'],
+        image: port4,
+        stack: ['Wordpress', 'RoyalElementor', 'SEO'],
         stackIcons: [
-            '/images/react.svg',
-            '/images/nextjs.svg',
-            '/images/tailwindcss.svg',
+           wordpress
         ],
         Links: [
             {
                 id: 1,
                 title: 'Live Demo',
-                url: 'https://www.example.com',
+                icon: <FaEye />,
+                url: 'https://yourfavoritewriter.kegsug.com',
             },
             {
                 id: 2,
                 title: 'Source Code',
+                icon: <FaGithub />,
                 url: 'https://www.example.com',
             },
         ],
     },
 
 ];
+

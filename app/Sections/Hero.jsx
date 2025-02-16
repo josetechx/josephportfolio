@@ -6,7 +6,7 @@ import { fadeIn, slowRiseAndEnlarge, flipIn } from '../Components/variant'
 
 const Hero = () => {
   return (
-    <section className="bg-hero flex flex-col md:flex-row justify-center items-center h-screen px-6 md:px-16 relative">
+    <section className="bg-hero flex flex-col md:flex-row justify-center items-center h-screen px-6 md:px-16 relative m-0">
       {/* Image Section */}
       {/* Uncomment if you want the image */}
       {/* <motion.div
