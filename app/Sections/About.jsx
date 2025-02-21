@@ -6,7 +6,7 @@ import { fadeIn, slowRiseAndEnlarge } from '../Components/variant'
 
 const About = () => {
   return (
-    <section className="flex flex-col md:flex-row justify-between items-center min-h-screen px-6 md:px-16 max-w-4xl lg:max-w-5xl w-full mx-auto gap-12 my-12">
+    <section className="flex flex-col md:flex-row justify-between items-center min-h-screen px-6 md:px-16 max-w-4xl lg:max-w-5xl w-full mx-auto gap-12 my-12" id='about'>
       
       {/* Image Section */}
       <motion.div
@@ -54,7 +54,7 @@ const About = () => {
           initial='hidden'
           whileInView='show'
           viewport={{ once: false, amount: 0.7 }}
-          className='text-md font-normal py-3 leading-relaxed'
+          className='text-md font-normal py-3 leading-relaxed font-montserrat'
         >
           I’m Joseph, a frontend developer with six years of experience specializing in React, Next.js, and JavaScript. I build modern, responsive, and user-friendly web applications, focusing on UI/UX, performance, and scalability. From eCommerce to healthcare solutions, I create seamless digital experiences. Passionate about clean code and collaboration, I turn ideas into reality. Let’s build something amazing! 🚀
         </motion.p>

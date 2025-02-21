@@ -7,7 +7,7 @@ const Services = () => {
   const firstBoxAnimation = services.slice(0, 3)
   const secondBoxAnimation = services.slice(3, 5)
   return (
-    <section className="flex flex-col md:flex-row justify-center md:justify-end items-center h-auto min-h-screen w-full px-6 sm:px-10 relative">
+    <section className="flex flex-col md:flex-row justify-center md:justify-end items-center h-auto min-h-screen w-full px-6 sm:px-10 relative" id='services'>
       <div className="bg-purple-800 rounded-md p-5 sm:p-8 w-full max-w-4xl text-white shadow-lg relative md:static">
         <motion.span 
           variants={fadeIn('down', 0.9)}
@@ -34,9 +34,9 @@ const Services = () => {
           initial='hidden'
           whileInView='show'
           viewport={{ once: false, amount: 0.7 }}
-          className='text-md font-normal py-3'
+          className='text-md font-normal py-3 font-montserrat'
         >
-          At Brand, I bring creativity to life with expert design solutions. Our core services include:
+          I bring creativity to life with expert design solutions. My core services include:
         </motion.p>
         <ul className='flex flex-col md:flex-row flex-wrap gap-6 mt-12'>
           {firstBoxAnimation.map((service) => (
@@ -49,8 +49,8 @@ const Services = () => {
               viewport={{ once: false, amount: 0.7 }}
               >
               <div className='bg-white text-purple-800  flex justify-center items-center p-4 text-xl w-12 rounded-lg text-center'>{service.icon}</div>
-              <h4 className='text-lg font-bold mt-2'>{service.title}</h4>
-              <p className='text-md font-normal'>{service.description}</p>
+              <h4 className='text-lg font-bold mt-2 font-montserrat-bold'>{service.title}</h4>
+              <p className='text-md font-normal font-montserrat'>{service.description}</p>
             </motion.li>
           ))}
           {secondBoxAnimation.map((service) => (
@@ -63,8 +63,8 @@ const Services = () => {
               viewport={{ once: false, amount: 0.7 }}
               >
               <div className='bg-white text-purple-800  flex justify-center items-center p-4 text-xl w-12 rounded-lg text-center'>{service.icon}</div>
-              <h4 className='text-lg font-bold mt-2'>{service.title}</h4>
-              <p className='text-md font-normal'>{service.description}</p>
+              <h4 className='text-lg font-bold mt-2 font-montserrat-bold'>{service.title}</h4>
+              <p className='text-md font-normal font-montserrat'>{service.description}</p>
             </motion.li>
           ))}
         </ul>

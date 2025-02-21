@@ -11,18 +11,18 @@ const Navbar = () => {
             {/* Logo */}
             <div className="navbar-logo">
                 <Link href="/" aria-label="Go to Home" className="text-xl font-bold font-decaydence">
-                    Logo
+                    Onaneye Joseph
                 </Link>
             </div>
 
             {/* Desktop Nav */}
-            <ul className="hidden md:flex space-x-6 p-2 font-decaydence text-xs">
+            <ul className="hidden md:flex space-x-6 p-2 font-montserrat text-white text-md">
                 <li><Link href="/" className="hover:text-gray-500">Home</Link></li>
-                <li><Link href="/about" className="hover:text-gray-500">About</Link></li>
-                <li><Link href="/services" className="hover:text-gray-500">Services</Link></li>
-                <li><Link href="/services" className="hover:text-gray-500">Portfolio</Link></li>
-                <li><Link href="/services" className="hover:text-gray-500">Testimonials</Link></li>
-                <li><Link href="/contact" className="hover:text-gray-500">Contact</Link></li>
+                <li><Link href="#about" className="hover:text-gray-500">About</Link></li>
+                <li><Link href="#services" className="hover:text-gray-500">Services</Link></li>
+                <li><Link href="#portfolio" className="hover:text-gray-500">Portfolio</Link></li>
+                <li><Link href="#testimonials" className="hover:text-gray-500">Testimonials</Link></li>
+                <li><Link href="#contact" className="hover:text-gray-500">Contact</Link></li>
             </ul>
 
             {/* Mobile Menu Button */}

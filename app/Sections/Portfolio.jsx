@@ -28,8 +28,8 @@ const Portfolio = () => {
   }, [hoveredProject])
 
   return (
-    <section className='bg-gray-800 flex flex-col items-center h-auto min-h-screen w-full px-6 sm:px-10 relative my-5'>
-      <div className='rounded-md p-5 sm:p-8 w-full max-w-4xl text-white md:static'>
+    <section className='bg-gray-800 flex flex-col items-center h-auto min-h-screen w-full px-6 sm:px-10 relative my-5' id='portfolio'>
+      <div className='rounded-md p-5 sm:p-8 w-full max-w-5xl text-white md:static'>
         <motion.span 
           variants={fadeIn('down', 0.9)}
           initial='hidden'
@@ -77,8 +77,8 @@ const Portfolio = () => {
             <div className={`absolute inset-0 bg-gradient-to-t from-purple-900 via-purple-600 to-transparent transition-opacity duration-300 flex flex-col justify-end p-6 
               ${hoveredProject === project.id ? 'opacity-100' : 'opacity-0'}
             `}>
-              <h3 className="text-white text-md font-decaydence">{project.title}</h3>
-              <p className="text-white text-xl font-birth">Tech Stack: {project.stackIcons.map((item, index) => <Image key={index}  width={70} height={70} src={item} alt={project.stack[index]} className="h-10 w-10 inline-block space-x-2" />
+              <h3 className="text-white text-lg font-montserrat font-bold">{project.title}</h3>
+              <p className="text-white text-lg font-birth">Tech Stack: {project.stackIcons.map((item, index) => <Image key={index}  width={20} height={20} src={item} alt={project.stack[index]} className="h-8 w-8 mr-3 inline-block space-x-4" />
               )}
               </p>
               <div className='flex'>
