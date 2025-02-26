@@ -163,43 +163,32 @@ export const Testimonials = [
       id: 1,
       name: "John Doe",
       position: "CEO, TechCorp",
-      testimonial:
-        "This product completely transformed our workflow. Highly recommended!",
+      testimonial: "Joseph transformed our website with a seamless and engaging user experience.",
       image: "/images/joseph.jpg",
     },
     {
       id: 2,
       name: "Jane Smith",
       position: "Marketing Director, XYZ Ltd.",
-      testimonial:
-        "Amazing service! The team was incredibly supportive and helpful.",
+      testimonial: "A true professional! Our site is now fast, responsive, and visually stunning.",
       image: "/images/Benita.jpg",
     },
     {
       id: 3,
       name: "Michael Brown",
       position: "Freelancer",
-      testimonial:
-        "The best investment I made this year. Absolutely love it!",
+      testimonial: "Joseph's web solutions helped me establish a strong online presence.",
       image: "/images/kike.jpg",
     },
     {
       id: 4,
-      name: "Emily Johnson",
-      position: "Product Manager, Innovate Inc.",
-      testimonial:
-        "A game-changer! The efficiency boost is incredible. Would definitely recommend.",
-      image: "/images/1.png",
+      name: "Funmilayo",
+      position: "Content Writer, Nadita.",
+      testimonial: "From design to optimization, Joseph exceeded my expectations.",
+      image: "/images/funmilayo.jpeg",
     },
-    {
-      id: 5,
-      name: "David Wilson",
-      position: "CTO, NextGen Solutions",
-      testimonial:
-        "Outstanding quality and customer service. Worth every penny!",
-      image: "/images/1.png",
-    },
-  ];
+];
+
 
   export const contactDetails = [
     {
