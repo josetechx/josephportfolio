@@ -6,7 +6,7 @@ import { fadeIn, slowRiseAndEnlarge } from '../Components/variant'
 
 const About = () => {
   return (
-    <section className="flex flex-col md:flex-row justify-between items-center min-h-screen px-6 md:px-16 max-w-4xl lg:max-w-5xl w-full mx-auto gap-12 my-12" id='about'>
+    <section className="flex flex-col lg:flex-row justify-between items-center min-h-screen px-6 md:px-16 max-w-4xl lg:max-w-5xl w-full mx-auto gap-12 my-12" id='about'>
       
       {/* Image Section */}
       <motion.div
@@ -44,7 +44,7 @@ const About = () => {
           initial='hidden'
           whileInView='show'
           viewport={{ once: false, amount: 0.7 }} 
-          className='text-xl sm:text-3xl leading-5 font-decaydence py-1'
+          className='text-xl sm:text-4xl leading-5 sm:leading-9 font-decaydence py-1'
         >
           Onaneye's Details
         </motion.h2>

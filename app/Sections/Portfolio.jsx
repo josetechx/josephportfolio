@@ -46,7 +46,7 @@ const Portfolio = () => {
           initial='hidden'
           whileInView='show'
           viewport={{ once: false, amount: 0.7 }} 
-          className='text-xl sm:text-3xl leading-5 font-decaydence py-1'
+          className='text-xl sm:text-4xl leading-[30px] font-decaydence py-1'
         >
           Browse My Recent Works
         </motion.h2>

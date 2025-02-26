@@ -7,11 +7,11 @@ import HeroStats from "../Components/HeroStats"
 
 const Hero = () => {
   return (
-    <section className="bg-hero flex flex-col md:flex-row justify-center items-center h-screen px-6 md:px-16 relative m-0">
+    <section className="bg-hero flex flex-col md:flex-row justify-center items-center h-screen px-1 md:px-16 relative m-0">
       {/* Text Section */}
       <div className="flex flex-col justify-center items-center text-center md:text-left md:w-[80%] mt-6 md:mt-0 relative">
         <motion.h1 
-          className="text-3xl md:text-4xl font-birth font-bold"
+          className="text-2xl md:text-4xl font-birth font-bold"
           variants={fadeIn('down', 0.9)}
           initial="hidden"
           whileInView="show"
@@ -21,7 +21,7 @@ const Hero = () => {
         </motion.h1>
 
         <motion.h2 
-          className="text-4xl md:text-5xl font-decaydence font-bold text-center w-full"
+          className="text-3xl md:text-5xl font-decaydence font-bold text-center"
           variants={fadeIn('left', 0.7)}
           initial="hidden"
           whileInView="show"

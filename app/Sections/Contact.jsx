@@ -83,8 +83,8 @@ const Contact = () => {
                 {contact.icon}
               </div>
             </span>
-            <span className='text-lg leading-4'><span className='text-sm text-gray-300  font-montserrat'>{contact.label}</span> <br /> 
-              <p className='text-xl  font-montserrat'>
+            <span className='text-sm leading-4 md:leading-2'><span className='text-sm text-gray-300  font-montserrat'>{contact.label}</span> <br /> 
+              <p className='text-sm  font-montserrat'>
                 {contact.title}
               </p>
             </span>

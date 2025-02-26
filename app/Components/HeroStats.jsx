@@ -42,8 +42,8 @@ const HeroStats = () => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.7 }}
-      className="absolute bg-white w-[90%] sm:w-[70%] md:w-[80%] text-purple-900 p-6 rounded-lg shadow-lg 
-      transform -translate-x-1/2 -bottom-16 -translate-y-1/2"
+      className="md:absolute bg-white w-[90%] sm:w-[70%] md:w-[80%] text-purple-900 p-6 rounded-lg shadow-lg 
+      transform -translate-x-1/2  md:-bottom-12  -translate-y-1/2"
     >
       <h3 className="font-birth text-xl md:text-2xl font-bold text-center mb-4">
         My Achievements
